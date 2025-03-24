@@ -13,3 +13,8 @@ streamlit run app.py
 - Summarizes the content
 - Analyzes sentiment
 - Converts summaries to Hindi speech
+
+
+## Deployment 
+- Deployed in Hugging face 
+- Runs in streamlit cloud (UI)
