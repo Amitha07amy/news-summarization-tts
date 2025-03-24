@@ -13,7 +13,7 @@ if st.button("Fetch News"):
     if response.status_code == 200:
         data = response.json()
 
-        st.subheader(f"Headlines Of:: {data['company']}")
+        st.subheader(f"Headlines Of : {data['company']}")
         st.subheader("Articles:")
 
         for i, article in enumerate(data["articles"], 1):
